@@ -1,0 +1,23 @@
+#myName{
+    background-color: rgb(6, 6, 154);
+    color: azure;
+    text-align: center;
+}
+
+#changeList{
+    background-color: cornflowerblue;
+    color: darkred; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+#changeList:hover{
+    color: chartreuse;
+}
+
+#body{
+    background-color: rgba(102, 208, 222, 0.742);
+}
+
+#h2{
+    background-color: dodgerblue;
+}
