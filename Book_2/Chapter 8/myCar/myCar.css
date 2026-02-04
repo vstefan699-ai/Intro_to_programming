@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(202, 199, 199);
+}
+
+#car {
+    position: absolute;
+    height: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background-color: rgb(19, 88, 249);
+   }
+
+   #body {
+    position: relative;
+    top: 150px;
+    width: 95%;
+    height: 100px;
+    background-color: #e1c87b;
+    border-radius: 
+    10px 35% 15% 30%;
+    border: 1px solid #050505;
+   }
+
+   #roof {
+    position: relative;
+    top: -189px;
+    left: 110px;
+    width: 50%;
+    height: 60px;
+    background-color: #c43434;
+    border-radius: 
+    20px 40px 0px 0px;
+   }
+
+   #backwheel {
+    position: relative;
+    left: 10%;
+    top: 10px;
+    background-color: #050505;
+    border: 5px dashed white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+   }
+
+   #frontwheel {
+    position: relative;
+    left: 75%;
+    top: 70px;
+    background-color: #050505;
+    border: 5px dashed white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px; 
+   }
+
+   .wheel{
+    transition: transform 5s ease-in-out; 
+   }
+
+   .rotate-active {
+  transform: rotate(360deg);
+}
+
+#rotateBtn{
+    position: relative;
+    top: -282px;
+    left: 262px;
+    height: 20px;
+    width: 60px;
+    background-color: beige;
+    border-radius: 25%;
+}
