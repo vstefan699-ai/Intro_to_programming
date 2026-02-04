@@ -1,0 +1,153 @@
+body{
+  background-color: rgb(104, 207, 219);
+}
+
+#head, #leftarm {
+  position: relative;
+}
+
+.eye {
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  
+  .arm {
+    background-color: #cacaca;
+    position: absolute;
+    top: 35%;
+    width: 3%;
+    height: 40%;
+  }
+  
+  #head {
+    width: 30%;
+    height: 30%;
+    border-radius: 15%;
+    background-color: #dadada;
+    position: absolute;
+    left: 33%;
+    top:2%;
+  }
+  
+  #righteye {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 55px;
+  }
+  
+  #lefteye {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    width: 55px;
+  }
+
+  #leftear{
+    position: absolute;
+    width: 10px;
+    height: 35px;
+    top: 43%;
+    left: -4%;
+    border-radius: 20%;
+    background-color: rgb(5, 5, 5);
+  }
+
+  #rightear{
+    position: absolute;
+    width: 10px;
+    height: 35px;
+    top: 43%;
+    left: 100%;
+    border-radius: 20%;
+    background-color: rgb(5, 5, 5);
+  }
+  
+   #nose{
+    position: absolute;
+    top: 53%;
+    left: 53%;
+    width: 10px;
+    height: 20px;
+    border-radius: 10%;
+    background-color: black;
+   }
+
+  #mouth {
+    position: absolute;
+    width: 65%;
+    height: 12%;
+    left: 20%;
+    top: 70%;
+    border-radius: 30px;
+    background-color: red;
+  }
+  
+  #body {
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    width: 45%;
+    height: 32%;
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 15px;
+  }
+  
+  #rightarm {
+    position: absolute;
+    top: 36%;
+    left: 20%;
+    height: 30%;
+    width: 25px;
+    border-radius: 15%;
+    background-color: #dadada;
+  }
+  
+  #leftarm {
+    position: absolute;
+    left: 71%;
+    width: 25%;
+    height: 3%;
+    border-radius: 15%;
+  }
+
+    #rightleg{
+    position: absolute;
+    width: 25px;
+    height: 200px;
+    top: 71%;
+    left: 30%;
+    border-radius: 20%;
+    background-color: #dadada;
+    }
+  
+    #leftleg{
+    position: absolute;
+    width: 25px;
+    height: 200px;
+    top: 71%;
+    left: 62%;
+    border-radius: 20%;
+    background-color: #dadada;
+    }
+
+  /******#nose {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    width: 10%;
+    height: 10%;
+    background-color: black;
+  }
+  body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  p {
+    font-size: 3em;
+  }
+  
