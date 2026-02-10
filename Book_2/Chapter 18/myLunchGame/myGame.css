@@ -1,0 +1,29 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 227, 122);
+}
+#instructions {
+    background-color: pink;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#orderForm {
+    width: 75%;
+    margin: 20px auto;
+}
+#receipt {
+    display: none;
+    background-color: #d69c27;
+    color: rgb(129, 3, 75);
+    padding: 6px;
+    border-radius: 5px;
+}
+#placeOrder{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    background-color: crimson;
+    border-radius: 5px;
+}
