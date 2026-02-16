@@ -1,153 +1,118 @@
-body{
+body {
   background-color: rgb(104, 207, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
-#head, #leftarm {
+.robot {
   position: relative;
+  width: 500px; 
+  height: 600px; 
+}
+
+#head {
+  width: 30%;
+  height: 25%;
+  border-radius: 15%;
+  background-color: #dadada;
+  position: absolute;
+  left: 35%;
+  top: 1%;
+  z-index: 2;
 }
 
 .eye {
-    background-color: blue;
-    width: 30%;
-    height: 30%;
-    border-radius: 50%;
-  }
-  
-  .arm {
-    background-color: #cacaca;
-    position: absolute;
-    top: 35%;
-    width: 3%;
-    height: 40%;
-  }
-  
-  #head {
-    width: 30%;
-    height: 30%;
-    border-radius: 15%;
-    background-color: #dadada;
-    position: absolute;
-    left: 33%;
-    top:2%;
-  }
-  
-  #righteye {
-    position: absolute;
-    left: 20%;
-    top: 20%;
-    width: 55px;
-  }
-  
-  #lefteye {
-    position: absolute;
-    left: 60%;
-    top: 20%;
-    width: 55px;
-  }
+  background-color: blue;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  position: absolute;
+}
 
-  #leftear{
-    position: absolute;
-    width: 10px;
-    height: 35px;
-    top: 43%;
-    left: -4%;
-    border-radius: 20%;
-    background-color: rgb(5, 5, 5);
-  }
+#lefteye {
+  left: 15%;
+  top: 20%;
+}
 
-  #rightear{
-    position: absolute;
-    width: 10px;
-    height: 35px;
-    top: 43%;
-    left: 100%;
-    border-radius: 20%;
-    background-color: rgb(5, 5, 5);
-  }
-  
-   #nose{
-    position: absolute;
-    top: 53%;
-    left: 53%;
-    width: 10px;
-    height: 20px;
-    border-radius: 10%;
-    background-color: black;
-   }
+#righteye {
+  right: 15%;
+  top: 20%;
+}
 
-  #mouth {
-    position: absolute;
-    width: 65%;
-    height: 12%;
-    left: 20%;
-    top: 70%;
-    border-radius: 30px;
-    background-color: red;
-  }
-  
-  #body {
-    position: absolute;
-    left: 25%;
-    top: 35%;
-    width: 45%;
-    height: 32%;
-    background-color: black;
-    text-align: center;
-    padding-top: 30px;
-    border-radius: 15px;
-  }
-  
-  #rightarm {
-    position: absolute;
-    top: 36%;
-    left: 20%;
-    height: 30%;
-    width: 25px;
-    border-radius: 15%;
-    background-color: #dadada;
-  }
-  
-  #leftarm {
-    position: absolute;
-    left: 71%;
-    width: 25%;
-    height: 3%;
-    border-radius: 15%;
-  }
+#leftear, #rightear {
+  position: absolute;
+  width: 5%;
+  height: 20%;
+  top: 40%;
+  border-radius: 20%;
+  background-color: rgb(5, 5, 5);
+}
 
-    #rightleg{
-    position: absolute;
-    width: 25px;
-    height: 200px;
-    top: 71%;
-    left: 30%;
-    border-radius: 20%;
-    background-color: #dadada;
-    }
-  
-    #leftleg{
-    position: absolute;
-    width: 25px;
-    height: 200px;
-    top: 71%;
-    left: 62%;
-    border-radius: 20%;
-    background-color: #dadada;
-    }
+#leftear { left: -5%; }
+#rightear { right: -5%; }
 
-  /******#nose {
-    position: absolute;
-    left: 45%;
-    top: 50%;
-    width: 10%;
-    height: 10%;
-    background-color: black;
-  }
-  body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-  }
-  
-  p {
-    font-size: 3em;
-  }
-  
+#nose {
+  position: absolute;
+  top: 53%;
+  left: 45%;
+  width: 6%;
+  height: 10%;
+  border-radius: 10%;
+  background-color: black;
+}
+
+#mouth {
+  position: absolute;
+  width: 60%;
+  height: 10%;
+  left: 20%;
+  top: 75%;
+  border-radius: 30px;
+  background-color: red;
+}
+
+#body {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  width: 50%;
+  height: 40%;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#rightarm {
+  position: absolute;
+  top: 33%;
+  left: 19%;
+  height: 30%;
+  width: 5%;
+  border-radius: 15px;
+  background-color: #dadada;
+}
+
+#leftarm {
+  position: absolute;
+  top: 31%;
+  left: 76%;
+  height: 4.5%;
+  width: 33%;
+  border-radius: 15px;
+  background-color: #dadada;
+}
+
+#leftleg, #rightleg {
+  position: absolute;
+  width: 6%;
+  height: 25%;
+  top: 71%;
+  border-radius: 10px;
+  background-color: #dadada;
+}
+
+#leftleg { left: 33%; }
+#rightleg { left: 62%; }
